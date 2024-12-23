@@ -1,0 +1,80 @@
+body {
+  background: url(./img/5c5e6.jpg) no-repeat center/cover;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  /* padding-top: 90px;
+        padding-bottom: 50px;
+        padding-right: 170px; */
+  font-family: Audiowide;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 45.48px;
+  text-align: center;
+  color: white;
+ 
+    color: #a8a8a8;
+   color:#1c0e54
+  
+}
+
+.block {
+  width: 400px;
+  height: 600px;
+  background: rgba(15, 15, 189, 0.236);
+  opacity: 0.7;
+  border-radius: 35px;
+  border: 2px solid rgb(216, 204, 220);
+  h3 {
+    font-size: 35px;
+    font-family: Audiowide;
+    color: hsl(252, 23%, 74%);
+  }
+}
+.input {
+  margin: 35px;
+  h2 {
+    font-size: 20px;
+    /* color: rgba(43, 174, 226, 0.795); */
+    color: hsl(252, 23%, 74%);
+
+    font-family: Audiowide;
+  }
+}
+input {
+  padding: 15px 60px;
+  border-radius: 15px;
+  /* border: 2px solid #170466; */
+  border: 2px solid rgb(127, 11, 165);
+
+  /* margin-bottom: 20px; */
+}
+button {
+  padding: 15px 105px;
+  border-radius: 25px;
+  border: 2px solid rgb(127, 11, 165);
+  font-size: 25px;
+  color: #1c0e54;
+  background: #13044e;
+}
+.modely {
+  margin:90px 70px;
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center;
+  justify-content: space-between; */
+  gap: 20px;
+  overflow-x: scroll;
+  h2{
+    font-family: Audiowide;
+
+  }
+
+  img{
+    width: 200px;
+    /* height: 45px; */
+  }
+ 
+}
